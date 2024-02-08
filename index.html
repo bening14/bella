@@ -248,6 +248,12 @@
 var myAudio = document.querySelector("#myAudio");
 var isPlaying = false;
 
+myAudio.addEventListener("load", function() {
+  myAudio.play();
+}, true);
+
+myAudio.autoplay = true;
+
 function togglePlay() {
   isPlaying ? myAudio.pause() : myAudio.play();
 };
