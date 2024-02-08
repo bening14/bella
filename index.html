@@ -31,8 +31,13 @@
 </head>
 
 <body>
-  <iframe class="spotify-media" src="https://open.spotify.com/embed/track/3YFII2db8nevqY8DYben8V" width="40" height="40"
-    frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  <!-- <iframe class="spotify-media" src="https://open.spotify.com/embed/track/3YFII2db8nevqY8DYben8V" width="40" height="40"
+    frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
+
+    <audio class="position-absolute" style="z-index: 999;" controls>
+      <source src="assets/barakallah.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
 
   <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3YFII2db8nevqY8DYben8V?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
 
@@ -232,4 +237,22 @@
 
 
   }, 1000);
+
+
+  var clickSound = new Audio("http://dl.dropbox.com/u/1538714/article_resources/song.ogg");
+
+function playAudioOnKeyDown(e) {
+  if (e.keyCode == 38) {
+    clickSound.play();
+  }
+}
+document.onkeydown = playAudioOnKeyDown;
+
+
+function pauseAudioOnKeyUp(e) {
+  if (e.keyCode == 38) {
+    clickSound.pause();
+  }
+}
+document.onkeyup = pauseAudioOnKeyUp;
 </script>
