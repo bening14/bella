@@ -1,0 +1,316 @@
+@font-face {
+  font-family: BELL;
+  src: url(../fonts/BELL.TTF);
+}
+
+@font-face {
+  font-family: PlayfairDisplay-Regular;
+  src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: Abhaya;
+  src: url(../fonts/AbhayaLibre-Regular.ttf);
+}
+
+@font-face {
+  font-family: BrittanySignature;
+  src: url(../fonts/BrittanySignature.ttf);
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: PlayfairDisplay-Regular;
+  scroll-behavior: smooth;
+}
+
+header#home, img.header-bg, .bg-contras {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: linear-gradient(rgba(21, 21, 21, .54), rgba(21, 21, 21, .54));
+}
+
+header#home, section {
+  position: relative;
+}
+
+img.header-bg {
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+}
+
+section {
+  overflow-y: visible;
+  min-height: 450px !important;
+}
+
+a {
+  cursor: pointer;
+}
+
+.header-text {
+  font: Abhaya;
+  position: fixed;
+  color: #fff;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100vw;
+  height: 100vw;
+  /* background-color: rgba(21, 21, 21, .54); */
+}
+
+.bg-white {
+  background-color: #fff;
+  color: #000;
+}
+
+.letter {
+  background-image: url(../img/letter-top-right.png), url(../img/letter-bottom-left.png);
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.letter-bg-top-right {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  max-width: 50%;
+  width: 400px;
+  height: fit-content;
+  height: 400px;
+  max-height: 50vw;
+}
+
+.letter-bg-bottom-left {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 50%;
+}
+
+.letter-bg-bottom-left img, .letter-bg-top-right img {
+  position: relative;
+}
+
+.letter .close {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.save-the-date {
+  min-height: 400px;
+  height: fit-content;
+}
+
+.save-the-date-text {
+  font-family: PlayfairDisplay-Regular;
+  background-color: rgba(27, 27, 27, 0.8);
+  color: #fff;
+  height: fit-content;
+}
+
+.bg-save-the-date {
+  object-fit: cover;
+  height: 100%;
+}
+
+.font-britanny {
+  font-family: BrittanySignature;
+}
+
+.gallery {
+  background-color: #000;
+}
+
+.gallery .items {
+  height: 324px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.text-party {
+  color: #000;
+}
+
+.tp-1 {
+  font-size: 36px;
+}
+
+.tp-2 {
+  font-size: 96px;
+}
+
+.tp-3 {
+  font-size: 24px;
+}
+
+.header-text .header-wedding-of {
+  font-size: 30;
+  letter-spacing: 12.5px;
+}
+
+.header-text .header-text-i1 {
+  font-size: 193px;
+}
+
+.header-name {
+  font-size: 32.29px;
+}
+
+.letter-1 {
+  font-size: 30px;
+}
+
+.letter-2 {
+  font-size: 24px;
+}
+
+.letter-3 {
+  color: #926F34;
+  font-size: 36px;
+}
+
+.letter-4 {
+  font-size: 152.73px;
+}
+
+.letter-5 {
+  font-size: 20px;
+}
+
+.letter-mempelai {
+  max-width: 33%;
+}
+
+.letter-photo {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  object-fit: cover;
+}
+
+.std-1 {
+  font-size: 48px;
+}
+
+.std-2 {
+  font-size: 36px;
+  font-weight: 100;
+}
+
+.std-2 .dates-item {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.footer-text {
+  color: white;
+}
+
+.title-footer {
+  font-size: 50px;
+}
+
+.content-footer {
+  font-size: 24px;
+}
+
+.btn-map {
+  border: 1.2px solid rgba(146, 111, 52, 1);
+  color: #926F34;
+}
+
+.spotify-media {
+  position: fixed;
+  z-index: 200;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .gallery .items {
+    height: 200px;
+  }
+  .tp-1 {
+    font-size: 24px;
+  }
+  .tp-2 {
+    font-size: 64px;
+  }
+  .tp-3 {
+    font-size: 14px;
+  }
+  .header-text .header-wedding-of {
+    font-size: 16px;
+    letter-spacing: 10px;
+  }
+  .header-text .header-text-i1 {
+    font-size: 120px;
+  }
+  .header-name {
+    font-size: 18px;
+  }
+  .header-gunung {
+    max-width: 25vw;
+    max-height: 60vh;
+  }
+  .letter-1 {
+    font-size: 24px;
+  }
+  .letter-2 {
+    font-size: 18px;
+  }
+  .letter-mempelai {
+    max-width: 100%;
+  }
+  .letter-photo {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+  .letter-3 {
+    color: #926F34;
+    font-size: 30px;
+  }
+  .letter-4 {
+    font-size: 94.21px;
+  }
+  .letter-5 {
+    font-size: 14px;
+  }
+  .std-1 {
+    font-size: 30px;
+  }
+  .std-2 {
+    font-size: 24px;
+    font-weight: 100;
+  }
+  .std-2 .dates-item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .title-footer {
+    font-size: 39px;
+  }
+  .content-footer {
+    font-size: 14px;
+  }
+}
