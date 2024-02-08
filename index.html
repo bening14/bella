@@ -38,7 +38,7 @@
     <button class="spotify-media btn btn-secondary" onclick="togglePlay()">
       <i class="fa-solid fa-play"></i>
     </button>
-    <audio id="myAudio" src="assets/barakallah.mp3" preload="auto"></audio>
+    <audio id="myAudio" src="assets/barakallah.mp3" preload="auto" autoplay></audio>
 
   <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3YFII2db8nevqY8DYben8V?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
 
@@ -242,20 +242,7 @@
 
   var clickSound = new Audio("assets/barakallah.mp3");
 
-function playAudioOnKeyDown(e) {
-  if (e.keyCode == 38) {
-    clickSound.play();
-  }
-}
-document.onkeydown = playAudioOnKeyDown;
 
-
-function pauseAudioOnKeyUp(e) {
-  if (e.keyCode == 38) {
-    clickSound.pause();
-  }
-}
-document.onkeyup = pauseAudioOnKeyUp;
 
 // test
 var myAudio = document.querySelector("#myAudio");
@@ -271,4 +258,21 @@ myAudio.onplaying = function() {
 myAudio.onpause = function() {
   isPlaying = false;
 };
+
+// old code
+function playAudioOnKeyDown(e) {
+  if (e.keyCode == 38) {
+    myAudio.play();
+    clickSound.play();
+  }
+}
+document.onkeydown = playAudioOnKeyDown;
+
+
+function pauseAudioOnKeyUp(e) {
+  if (e.keyCode == 38) {
+    clickSound.pause();
+  }
+}
+document.onkeyup = pauseAudioOnKeyUp;
 </script>
