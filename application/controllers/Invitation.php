@@ -17,4 +17,30 @@ class Invitation extends CI_Controller
         // die;
         $this->load->view('invitation', $data);
     }
+
+    public function insert_data()
+    {
+        $this->load->model("Crud", "crud");
+
+        $table = $this->input->post("table");
+        $data = $this->input->post();
+        unset($data['table']);
+
+        // echo '<pre>';
+        // var_dump($data);
+        // echo '</pre>';
+        // die;
+
+        $insert_data = $this->crud->insert($table, $data);
+
+        $getdata = $this->crud->get_all($table)->result();
+
+
+        if ($insert_data > 0) {
+            $response = ['status' => 'success', 'message' => 'Berhasil Tambah Data!', 'data' => $getdata];
+        } else
+            $response = ['status' => 'error', 'message' => 'Gagal Tambah Data!'];
+
+        echo json_encode($response);
+    }
 }

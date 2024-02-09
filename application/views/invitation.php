@@ -174,7 +174,7 @@
                     <div class="tp-3">Akad Nikah : 10.00 WIB - Selesai</div>
                     <div class="tp-3 pb-3">Resepsi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 13.00 WIB - Selesai</div>
                     <div class="tp-3">Jln KH.Abdul Malik RT 05/RW 01 Mersi Purwokerto Timur</div>
-                    <div class="tp-3 pt-3">Tasyakuran</div>
+                    <div class="tp-3 pt-3"><strong>Tasyakuran</strong></div>
 
                     <div class="tp-3">Minggu, 03-Maret-2024</div>
                     <div class="tp-3">Senin,&nbsp; 04-Maret-2024</div>
@@ -221,16 +221,17 @@
                     <div class="tp-1">Ucapan Selamat</div>
                     <div style="border-bottom: solid 1px black;" class="pb-2">Berikan Ucapan & Do'a Restu</div>
                     <div style="font-size: 12px;">Terima kasih atas <?= $count ?> doa restu dari para tamu undangan</div>
-                    <form>
+                    <form id="form-data">
                         <div class="row">
                             <div class="form-group mt-5">
+                                <small style="font-style: italic;color: green;font-size: 12px;display: none;" id="sukses">*Terima kasih telah memberikan ucapan dan doa restu!</small>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="namaanda" placeholder="Masukan Nama Anda">
+                                    <input type="text" class="form-control" id="namaanda" placeholder="Masukan Nama Anda" required>
                                 </div>
                             </div>
                             <div class="form-group mt-3">
                                 <div class="form-group">
-                                    <textarea name="ucapan" id="ucapan" cols="30" rows="5" class="form-control" placeholder="Berikan Ucapan & Do'a Restu untuk kedua mempelai"></textarea>
+                                    <textarea id="ucapananda" cols="30" rows="5" class="form-control" placeholder="Berikan Ucapan & Do'a Restu untuk kedua mempelai" required></textarea>
                                 </div>
                             </div>
                             <div class="form-group mt-2">
@@ -252,7 +253,7 @@
                         </div>
                     </form>
                     <hr>
-                    <div class="mt-5">
+                    <div class="mt-5" id="repeat-ucapan">
                         <?php
                         foreach ($all as $key => $value) {
                         ?>
@@ -275,15 +276,6 @@
                         <?php
                         }
                         ?>
-                        <!-- <div class="row" style="text-align: left;">
-                            <div class="col-lg-4 col-sm-4 col-lg-4"> Agus Salim</div>
-                            <div class="col-lg-4 col-sm-4 col-lg-4"> <span class="badge bg-success"><i class="fa fa-check-circle"></i> Hadir</span></div>
-                            <div class="col-lg-4 col-sm-4 col-lg-4" style="text-align: right;font-style: italic;">04:45:05 13-Feb-2024</div>
-
-                            <div class="col-lg-2 col-sm-2 col-lg-2 mt-2"></div>
-                            <div class="col-lg-10 col-sm-10 col-lg-10 mb-3">Selamat menempuh hidup baru, semoga sakinah mawaddah warahmah. Amiin</div>
-                            <hr>
-                        </div> -->
                     </div>
                     <!-- <div class="item">
             <img src="dist/img/user3-128x128.jpg" alt="user image" class="offline">
@@ -302,6 +294,9 @@
         </div>
         <img src="<?= base_url('assets/assets/img/bg-border-bottom.png') ?>" style="width: 100%;" alt="bordertop" class="bg-border-bottom">
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
@@ -370,4 +365,67 @@
         }
     }
     document.onkeyup = pauseAudioOnKeyUp;
+
+
+
+    $("#form-data").submit(function(e) {
+        e.preventDefault()
+
+        var form_data = new FormData();
+        form_data.append('table', 'tbl_ucapan');
+        form_data.append('nama', $("#namaanda").val());
+        form_data.append('ucapan', $("#ucapananda").val());
+        form_data.append('hadir', $("#hadir").val());
+
+        var url_ajax = '<?= base_url() ?>invitation/insert_data'
+        var total = ''
+        $.ajax({
+            url: url_ajax,
+            type: "post",
+            cache: false,
+            contentType: false,
+            processData: false,
+            data: form_data,
+            dataType: "json",
+            success: function(result) {
+                if (result.status == "success") {
+
+                    result.data.forEach(d => {
+                        htm = `  <div class="row" style="text-align: left;">
+                                   <div class="col-lg-4 col-sm-4 col-lg-4"> <strong>` + d.nama + `</strong></div>`
+
+                        if (d.hadir == 'Hadir') {
+                            htm1 = `<div class="col-lg-4 col-sm-4 col-lg-4"> <span class="badge bg-success"><i class="fa fa-check-circle"></i> Hadir</span></div>`
+                        } else {
+                            htm1 = `<div class="col-lg-4 col-sm-4 col-lg-4"> <span class="badge bg-danger"><i class="fa fa-close"></i> Tidak Hadir</span></div>`
+                        }
+
+                        htm2 = `<div class="col-lg-4 col-sm-4 col-lg-4" style="text-align: right;font-style: italic;">` + d.date_created + `</div>
+
+                        <div class="col-lg-2 col-sm-2 col-lg-2 mt-2"></div>
+                        <div class="col-lg-10 col-sm-10 col-lg-10 mb-3">` + d.ucapan + `</div>
+                         <hr>
+                        </div>`
+
+                        total += htm + htm1 + htm2
+
+                        $('#repeat-ucapan').html(total)
+                    });
+
+
+
+                    $('#namaanda').val('')
+                    $('#ucapananda').val('')
+                    $('#sukses').show('500')
+
+
+                } else {
+                    console.log('error')
+                }
+            },
+            error: function(err) {
+                console.log('error')
+            }
+        })
+    })
 </script>
