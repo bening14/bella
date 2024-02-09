@@ -73,7 +73,7 @@
     </div>
     <div class="row justify-content-center px-3">
       <div class="text-center justify-content-center col-lg-5 letter-mempelai">
-        <img src="./assets/img/women.png" class="letter-photo my-5" alt="mempelai wanita">
+        <img src="./assets/img/women2.png" class="letter-photo my-5" alt="mempelai wanita">
         <div class="letter-3"> Luteifatul Hasna Annabila, S.H </div>
         <div class="letter-5">Putri Bapak Drs. Makmur dan Ibu Umi Sofiyah, S.Ag <br> Purwokerto </div>
         <!-- <div>
@@ -96,7 +96,7 @@
       </div>
       <div class="col-lg-2 text-center letter-4 pt-5">&</div>
       <div class="text-center justify-content-center col-lg-5 letter-mempelai">
-        <img src="./assets/img/man.png" class="letter-photo my-5" alt="mempelai wanita">
+        <img src="./assets/img/man1.png" class="letter-photo my-5" alt="mempelai wanita">
         <div class="letter-3"> Mohamad Husain Haikal, S.T </div>
         <div class="letter-5">Putera Bapak Drs. H. Mohamad Wahyudin Prasetyo, M.Pd.I dan Ibu Hj.Siti Duriyah.
           <br> Cilacap
