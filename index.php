@@ -51,12 +51,12 @@
           <div class="d-flex justify-content-between align-items-center">
             <div>
               <!-- <div class="header-text-i1"> B </div> -->
-              <div class="header-name" style="font-size: 28px;">Bella</div>
+              <div class="header-name" style="font-size: 28px; padding-right: 10px;">Bella</div>
             </div>
             <img src="./assets/img/gunung.png" class="header-gunung" alt="gunung">
             <div>
               <!-- <div class="header-text-i1"> H </div> -->
-              <div class="header-name" style="font-size: 28px;">Haikal</div>
+              <div class="header-name" style="font-size: 28px;padding-left: 10px;">Haikal</div>
             </div>
           </div>
           <div class="mt-5 pb-4" style="letter-spacing: 12.5px; border-bottom: 3.36px solid; margin-left: auto; margin-right: auto;"> 04
@@ -178,7 +178,7 @@
 
           <div>Minggu, 03-Maret-2024</div>
           <div>Senin,&nbsp; 04-Maret-2024</div>
-          <a class="btn btn-lg btn-map" target="_blank" href="https://maps.app.goo.gl/gurk7DVPDhd1bZJn9">
+          <a class="btn btn-lg btn-map mt-3" target="_blank" href="https://maps.app.goo.gl/gurk7DVPDhd1bZJn9">
             <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 3.71788V18.7491C0 19.2404 0.496094 19.5764 0.952257 19.3941L6.94444 16.6667V0L0.873264 2.42839C0.615529 2.53147 0.394588 2.70941 0.238936 2.93925C0.083285 3.16909 6.17278e-05 3.44029 0 3.71788H0ZM8.33333 16.6667L16.6667 19.4444V2.77778L8.33333 0V16.6667ZM24.0477 0.0503472L18.0556 2.77778V19.4444L24.1267 17.0161C24.3845 16.913 24.6055 16.7351 24.7611 16.5052C24.9168 16.2754 25 16.0042 25 15.7266V0.695312C25 0.203993 24.5039 -0.131944 24.0477 0.0503472Z" fill="#926F34" />
             </svg> Lihat Peta</a>
@@ -194,7 +194,7 @@
           </div>
           <div class="tp-3 pb-3">09.00 WIB - Selesai</div>
           <div class="tp-3">Wungusari Rt 03/Rw 05 Layansari Gandrungmangu, kab. Cilacap. </div>
-          <a class="btn btn-lg btn-map" target="_blank" href="https://maps.app.goo.gl/o7s7ZbEuDVK2ouq27">
+          <a class="btn btn-lg btn-map mt-3" target="_blank" href="https://maps.app.goo.gl/o7s7ZbEuDVK2ouq27">
             <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 3.71788V18.7491C0 19.2404 0.496094 19.5764 0.952257 19.3941L6.94444 16.6667V0L0.873264 2.42839C0.615529 2.53147 0.394588 2.70941 0.238936 2.93925C0.083285 3.16909 6.17278e-05 3.44029 0 3.71788H0ZM8.33333 16.6667L16.6667 19.4444V2.77778L8.33333 0V16.6667ZM24.0477 0.0503472L18.0556 2.77778V19.4444L24.1267 17.0161C24.3845 16.913 24.6055 16.7351 24.7611 16.5052C24.9168 16.2754 25 16.0042 25 15.7266V0.695312C25 0.203993 24.5039 -0.131944 24.0477 0.0503472Z" fill="#926F34" />
             </svg> Lihat Peta</a>
