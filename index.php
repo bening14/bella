@@ -174,10 +174,10 @@
           <div class="tp-3">Akad Nikah : 10.00 WIB - Selesai</div>
           <div class="tp-3 pb-3">Resepsi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 13.00 WIB - Selesai</div>
           <div class="tp-3">Jln KH.Abdul Malik RT 05/RW 01 Mersi Purwokerto Timur</div>
-          <div class="pt-3" style="font-size: 18px;">Tasyakuran</div>
+          <div class="tp-3 pt-3">Tasyakuran</div>
 
-          <div>Minggu, 03-Maret-2024</div>
-          <div>Senin,&nbsp; 04-Maret-2024</div>
+          <div class="tp-3">Minggu, 03-Maret-2024</div>
+          <div class="tp-3">Senin,&nbsp; 04-Maret-2024</div>
           <a class="btn btn-lg btn-map mt-3" target="_blank" href="https://maps.app.goo.gl/gurk7DVPDhd1bZJn9">
             <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 3.71788V18.7491C0 19.2404 0.496094 19.5764 0.952257 19.3941L6.94444 16.6667V0L0.873264 2.42839C0.615529 2.53147 0.394588 2.70941 0.238936 2.93925C0.083285 3.16909 6.17278e-05 3.44029 0 3.71788H0ZM8.33333 16.6667L16.6667 19.4444V2.77778L8.33333 0V16.6667ZM24.0477 0.0503472L18.0556 2.77778V19.4444L24.1267 17.0161C24.3845 16.913 24.6055 16.7351 24.7611 16.5052C24.9168 16.2754 25 16.0042 25 15.7266V0.695312C25 0.203993 24.5039 -0.131944 24.0477 0.0503472Z" fill="#926F34" />
@@ -217,7 +217,7 @@
     <img src="./assets/img/bg-border-top.png" style="width: 100%;" alt="bordertop" class="bg-border-top">
     <div class="d-flex justify-content-center justify-items-center text-center">
       <div class="row">
-        <div class="text-party px-5 pt-1 col-lg-6" style="min-height: 100px;">
+        <div class="text-party px-5 pt-1 col-lg-12" style="min-height: 100px;">
           <div class="tp-1">Ucapan Selamat</div>
           <div style="border-bottom: solid 1px black;" class="pb-2">Berikan Ucapan & Do'a Restu</div>
           <div style="font-size: 12px;">Terima kasih atas 16 Ucapan dari para tamu undangan</div>
@@ -235,7 +235,7 @@
               </div>
               <div class="form-group mt-2">
                 <div class="form-group">
-                  <div style="text-align: left !important;">
+                  <div style="text-align: left;">
                     <label for="hadir">Konfirmasi Kehadiran</label>
                   </div>
                   <select name="hadir" id="hadir" class="form-control">
@@ -251,6 +251,39 @@
               </div>
             </div>
           </form>
+          <hr>
+          <div class="mt-5">
+            <div class="row" style="text-align: left;">
+              <div class="col-lg-4 col-sm-4 col-lg-4"> Agus Salim</div>
+              <div class="col-lg-4 col-sm-4 col-lg-4"> <span class="badge bg-success"><i class="fa fa-check-circle"></i> Hadir</span></div>
+              <div class="col-lg-4 col-sm-4 col-lg-4" style="text-align: right;font-style: italic;">04:45:05 13-Feb-2024</div>
+
+              <div class="col-lg-2 col-sm-2 col-lg-2 mt-2"></div>
+              <div class="col-lg-10 col-sm-10 col-lg-10 mb-3">Selamat menempuh hidup baru, semoga sakinah mawaddah warahmah. Amiin</div>
+              <hr>
+            </div>
+            <div class="row" style="text-align: left;">
+              <div class="col-lg-4 col-sm-4 col-lg-4"> Agus Salim</div>
+              <div class="col-lg-4 col-sm-4 col-lg-4"> <span class="badge bg-success"><i class="fa fa-check-circle"></i> Hadir</span></div>
+              <div class="col-lg-4 col-sm-4 col-lg-4" style="text-align: right;font-style: italic;">04:45:05 13-Feb-2024</div>
+
+              <div class="col-lg-2 col-sm-2 col-lg-2 mt-2"></div>
+              <div class="col-lg-10 col-sm-10 col-lg-10 mb-3">Selamat menempuh hidup baru, semoga sakinah mawaddah warahmah. Amiin</div>
+              <hr>
+            </div>
+          </div>
+          <!-- <div class="item">
+            <img src="dist/img/user3-128x128.jpg" alt="user image" class="offline">
+            <p class="message">
+              <a href="#" class="name">
+                <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 5:15</small>
+                Alexander Pierce
+              </a>
+              I would like to meet you to discuss the latest news about
+              the arrival of the new theme. They say it is going to be one the
+              best themes on the market
+            </p>
+          </div> -->
         </div>
       </div>
     </div>
