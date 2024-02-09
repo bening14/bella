@@ -35,20 +35,19 @@
   <!-- <iframe class="spotify-media" src="https://open.spotify.com/embed/track/3YFII2db8nevqY8DYben8V" width="40" height="40"
     frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
 
-    <button class="spotify-media btn btn-secondary" onclick="togglePlay()">
-      <i class="fa-solid fa-play"></i>
-    </button>
-    <audio id="myAudio" src="assets/barakallah.mp3" preload="auto" autoplay></audio>
+  <button class="spotify-media btn btn-secondary" onclick="togglePlay()">
+    <i class="fa-solid fa-play"></i>
+  </button>
+  <audio id="myAudio" src="assets/barakallah.mp3" preload="auto" autoplay></audio>
 
   <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3YFII2db8nevqY8DYben8V?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
 
   <header id="home">
     <img src="./assets/img/bg-header.png" class="header-bg" alt="header">
     <div class="header-text">
-      <div class="d-flex text-center justify-content-center align-items-center"
-        style="height: 100vh; text-transform: uppercase;">
+      <div class="d-flex text-center justify-content-center align-items-center" style="height: 100vh; text-transform: uppercase;">
         <div>
-          <h3 class="header-wedding-of">Sugeng Polokrami</h3>
+          <h3 class="header-wedding-of">Serat Ulem</h3>
           <div class="d-flex justify-content-between align-items-center">
             <div>
               <!-- <div class="header-text-i1"> B </div> -->
@@ -60,8 +59,7 @@
               <div class="header-name" style="font-size: 28px;">Haikal</div>
             </div>
           </div>
-          <div class="mt-5 pb-4"
-            style="letter-spacing: 12.5px; border-bottom: 3.36px solid; margin-left: auto; margin-right: auto;"> 04
+          <div class="mt-5 pb-4" style="letter-spacing: 12.5px; border-bottom: 3.36px solid; margin-left: auto; margin-right: auto;"> 04
             MARET 2024 </div>
         </div>
       </div>
@@ -101,7 +99,8 @@
         <img src="./assets/img/man.png" class="letter-photo my-5" alt="mempelai wanita">
         <div class="letter-3"> Mohamad Husain Haikal, S.T </div>
         <div class="letter-5">Putera Bapak Drs. H. Mohamad Wahyudin Prasetyo, M.Pd.I dan Ibu Hj.Siti Duriyah.
-          <br> Cilacap</div>
+          <br> Cilacap
+        </div>
         <!-- <div>
           <span class="icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -122,8 +121,7 @@
       </div>
     </div>
   </section>
-  <section id="save-the-date" class="save-the-date"
-    style="background-image: url(./assets/img/bg-2.png); background-size: cover;">
+  <section id="save-the-date" class="save-the-date" style="background-image: url(./assets/img/bg-2.png); background-size: cover;">
     <div class="save-the-date-text text-center py-5">
       <!-- <div class="date mb-5 std-1"> 22 September 2021 </div> -->
       <div class="font-britanny mt-5 pt-4" style="font-size: 72px;"> Bella </div>
@@ -167,7 +165,7 @@
         <div class="text-party px-5 pt-5 col-lg-6" style="min-height: 100px;">
           <div class="tp-1">Akad Nikah & Resepsi di Kediaman Mempelai Wanita</div>
           <div class="tp-3 d-flex justify-content-center justify-items-center">
-            <div class="tp-2">4</div>
+            <div class="tp-2">3-4</div>
             <div class="mt-auto mb-auto ms-3 text-start">
               <div> Maret </div>
               <div>2024</div>
@@ -176,15 +174,17 @@
           <div class="tp-3">Akad Nikah : 10.00 WIB - Selesai</div>
           <div class="tp-3 pb-3">Resepsi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 13.00 WIB - Selesai</div>
           <div class="tp-3">Jln KH.Abdul Malik RT 05/RW 01 Mersi Purwokerto Timur</div>
+          <div class="pt-3" style="font-size: 18px;">Tasyakuran</div>
+
+          <div>Minggu, 03-Maret-2024</div>
+          <div>Senin,&nbsp; 04-Maret-2024</div>
           <a class="btn btn-lg btn-map" target="_blank" href="https://maps.app.goo.gl/gurk7DVPDhd1bZJn9">
             <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M0 3.71788V18.7491C0 19.2404 0.496094 19.5764 0.952257 19.3941L6.94444 16.6667V0L0.873264 2.42839C0.615529 2.53147 0.394588 2.70941 0.238936 2.93925C0.083285 3.16909 6.17278e-05 3.44029 0 3.71788H0ZM8.33333 16.6667L16.6667 19.4444V2.77778L8.33333 0V16.6667ZM24.0477 0.0503472L18.0556 2.77778V19.4444L24.1267 17.0161C24.3845 16.913 24.6055 16.7351 24.7611 16.5052C24.9168 16.2754 25 16.0042 25 15.7266V0.695312C25 0.203993 24.5039 -0.131944 24.0477 0.0503472Z"
-                fill="#926F34" />
+              <path d="M0 3.71788V18.7491C0 19.2404 0.496094 19.5764 0.952257 19.3941L6.94444 16.6667V0L0.873264 2.42839C0.615529 2.53147 0.394588 2.70941 0.238936 2.93925C0.083285 3.16909 6.17278e-05 3.44029 0 3.71788H0ZM8.33333 16.6667L16.6667 19.4444V2.77778L8.33333 0V16.6667ZM24.0477 0.0503472L18.0556 2.77778V19.4444L24.1267 17.0161C24.3845 16.913 24.6055 16.7351 24.7611 16.5052C24.9168 16.2754 25 16.0042 25 15.7266V0.695312C25 0.203993 24.5039 -0.131944 24.0477 0.0503472Z" fill="#926F34" />
             </svg> Lihat Peta</a>
         </div>
         <div class="text-party px-5 pt-5 col-lg-6" style="min-height: 100px;">
-          <div class="tp-1">Resepsi di Kediaman Mempelai Pria</div>
+          <div class="tp-1">Tasyakuran di Kediaman Mempelai Pria</div>
           <div class="tp-3 d-flex justify-content-center justify-items-center">
             <div class="tp-2">7 - 8</div>
             <div class="mt-auto mb-auto ms-3 text-start">
@@ -196,9 +196,7 @@
           <div class="tp-3">Wungusari Rt 03/Rw 05 Layansari Gandrungmangu, kab. Cilacap. </div>
           <a class="btn btn-lg btn-map" target="_blank" href="https://maps.app.goo.gl/o7s7ZbEuDVK2ouq27">
             <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M0 3.71788V18.7491C0 19.2404 0.496094 19.5764 0.952257 19.3941L6.94444 16.6667V0L0.873264 2.42839C0.615529 2.53147 0.394588 2.70941 0.238936 2.93925C0.083285 3.16909 6.17278e-05 3.44029 0 3.71788H0ZM8.33333 16.6667L16.6667 19.4444V2.77778L8.33333 0V16.6667ZM24.0477 0.0503472L18.0556 2.77778V19.4444L24.1267 17.0161C24.3845 16.913 24.6055 16.7351 24.7611 16.5052C24.9168 16.2754 25 16.0042 25 15.7266V0.695312C25 0.203993 24.5039 -0.131944 24.0477 0.0503472Z"
-                fill="#926F34" />
+              <path d="M0 3.71788V18.7491C0 19.2404 0.496094 19.5764 0.952257 19.3941L6.94444 16.6667V0L0.873264 2.42839C0.615529 2.53147 0.394588 2.70941 0.238936 2.93925C0.083285 3.16909 6.17278e-05 3.44029 0 3.71788H0ZM8.33333 16.6667L16.6667 19.4444V2.77778L8.33333 0V16.6667ZM24.0477 0.0503472L18.0556 2.77778V19.4444L24.1267 17.0161C24.3845 16.913 24.6055 16.7351 24.7611 16.5052C24.9168 16.2754 25 16.0042 25 15.7266V0.695312C25 0.203993 24.5039 -0.131944 24.0477 0.0503472Z" fill="#926F34" />
             </svg> Lihat Peta</a>
         </div>
       </div>
@@ -214,6 +212,50 @@
       <div class="content-footer mt-4 pt-4"> Hormat Kami, <br> Bella & Haikal </div>
     </div>
   </section>
+  <section id="ucapan" class="bg-white" style="background-image: url(./assets/img/gunung-2.png);  background-repeat: no-repeat;
+  background-position: center;">
+    <img src="./assets/img/bg-border-top.png" style="width: 100%;" alt="bordertop" class="bg-border-top">
+    <div class="d-flex justify-content-center justify-items-center text-center">
+      <div class="row">
+        <div class="text-party px-5 pt-1 col-lg-6" style="min-height: 100px;">
+          <div class="tp-1">Ucapan Selamat</div>
+          <div style="border-bottom: solid 1px black;" class="pb-2">Berikan Ucapan & Do'a Restu</div>
+          <div style="font-size: 12px;">Terima kasih atas 16 Ucapan dari para tamu undangan</div>
+          <form>
+            <div class="row">
+              <div class="form-group mt-5">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="namaanda" placeholder="Masukan Nama Anda">
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <div class="form-group">
+                  <textarea name="ucapan" id="ucapan" cols="30" rows="5" class="form-control" placeholder="Berikan Ucapan & Do'a Restu untuk kedua mempelai"></textarea>
+                </div>
+              </div>
+              <div class="form-group mt-2">
+                <div class="form-group">
+                  <div style="text-align: left !important;">
+                    <label for="hadir">Konfirmasi Kehadiran</label>
+                  </div>
+                  <select name="hadir" id="hadir" class="form-control">
+                    <option value="Hadir">Hadir</option>
+                    <option value="Tidak Hadir">Tidak Hadir</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group mt-3">
+                <button type="submit" class="btn btn-primary">Kirim</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/img/bg-border-bottom.png" style="width: 100%;" alt="bordertop" class="bg-border-bottom">
+  </section>
 </body>
 
 </html>
@@ -224,7 +266,7 @@
     minutesEl = document.getElementById("minutes"),
     secondsEl = document.getElementById("seconds")
 
-  var x = setInterval(function () {
+  var x = setInterval(function() {
     var now = new Date().getTime();
     var distance = Math.floor(countDownDate - now);
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -245,41 +287,41 @@
 
 
 
-// test
-var myAudio = document.querySelector("#myAudio");
-var isPlaying = false;
+  // test
+  var myAudio = document.querySelector("#myAudio");
+  var isPlaying = false;
 
-myAudio.addEventListener("load", function() {
-  myAudio.play();
-}, true);
-
-myAudio.autoplay = true;
-
-function togglePlay() {
-  isPlaying ? myAudio.pause() : myAudio.play();
-};
-
-myAudio.onplaying = function() {
-  isPlaying = true;
-};
-myAudio.onpause = function() {
-  isPlaying = false;
-};
-
-// old code
-function playAudioOnKeyDown(e) {
-  if (e.keyCode == 38) {
+  myAudio.addEventListener("load", function() {
     myAudio.play();
-    clickSound.play();
+  }, true);
+
+  myAudio.autoplay = true;
+
+  function togglePlay() {
+    isPlaying ? myAudio.pause() : myAudio.play();
+  };
+
+  myAudio.onplaying = function() {
+    isPlaying = true;
+  };
+  myAudio.onpause = function() {
+    isPlaying = false;
+  };
+
+  // old code
+  function playAudioOnKeyDown(e) {
+    if (e.keyCode == 38) {
+      myAudio.play();
+      clickSound.play();
+    }
   }
-}
-document.onkeydown = playAudioOnKeyDown;
+  document.onkeydown = playAudioOnKeyDown;
 
 
-function pauseAudioOnKeyUp(e) {
-  if (e.keyCode == 38) {
-    clickSound.pause();
+  function pauseAudioOnKeyUp(e) {
+    if (e.keyCode == 38) {
+      clickSound.pause();
+    }
   }
-}
-document.onkeyup = pauseAudioOnKeyUp;
+  document.onkeyup = pauseAudioOnKeyUp;
 </script>
