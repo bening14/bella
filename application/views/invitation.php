@@ -67,7 +67,8 @@
     </header>
     <section id="letter" class="letter bg-white py-5">
         <div class="container text-center" style="z-index: 2;">
-            <div class="letter-1 text-center"> ASSALAMUALAIKUM WARAHMATULLAHI WABARAKATUH </div>
+            <div class="letter-1 text-center"> ASSALAMU'ALAIKUM WR WB </div>
+            <!-- <div class="letter-1 text-center"> ASSALAMUALAIKUM WARAHMATULLAHI WABARAKATUH </div> -->
             <div class="text-center mt-4 letter-2"> Tanpa mengurangi rasa hormat, kami berdua ingin mengundang saudara/i untuk
                 berkenan hadir dan memberikan doa restu pada pernikahan kami : </div>
         </div>
