@@ -47,7 +47,7 @@
         <div class="header-text">
             <div class="d-flex text-center justify-content-center align-items-center" style="height: 100vh; text-transform: uppercase;">
                 <div>
-                    <h3 class="header-wedding-of">Serat Ulem</h3>
+                    <h3 class="header-wedding-of" style="padding-bottom: 20px;">The Wedding of</h3>
                     <div class="d-flex justify-content-between align-items-center">
                         <div>
                             <!-- <div class="header-text-i1"> B </div> -->
