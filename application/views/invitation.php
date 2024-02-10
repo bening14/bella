@@ -12,7 +12,7 @@
     <!-- <meta property="og:image" content="https://gitaprima.datengin.id/assets/img/waim.jpg"> -->
     <meta property=" og:url" content="https://solusiciptamedia.com/">
     <!-- <meta property="og:image" content="https://gitaprima.datengin.id/assets/img/waim.jpg"> -->
-    <meta name=" description" content="Minggu, 04 Maret 2024">
+    <meta name=" description" content="Senin, 04 Maret 2024">
     <!-- <meta property="og:image" content="http://gitaprima.datengin.id/assets/img/waim.jpg">
   <meta property="og:image" content="https://gitaprima.datengin.id/assets/img/waim.jpg"> -->
     <meta property="og:image:width" content="683">
@@ -20,7 +20,7 @@
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
     <meta property="og:title" content="The Wedding of Bella &amp; Haikal">
-    <meta property="og:description" content="Minggu, 04 Maret 2024">
+    <meta property="og:description" content="Senin, 04 Maret 2024">
     <meta property="og:url" content="https://solusiciptamedia.com/">
     <meta property="og:url" content="https://solusiciptamedia.com/">
     <meta property="og:site_name" content="solusiciptamedia">
@@ -171,13 +171,13 @@
                             <div>2024</div>
                         </div>
                     </div>
-                    <div class="tp-3">Akad Nikah : 10.00 WIB - Selesai</div>
+                    <div class="tp-3">Akad Nikah : 4 Maret 2024, 10.00 WIB - Selesai</div>
                     <div class="tp-3 pb-3">Resepsi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 13.00 WIB - Selesai</div>
                     <div class="tp-3">Jln KH.Abdul Malik RT 05/RW 01 Mersi Purwokerto Timur</div>
-                    <div class="tp-3 pt-3"><strong>Tasyakuran</strong></div>
+                    <!-- <div class="tp-3 pt-3"><strong>Tasyakuran</strong></div> -->
 
-                    <div class="tp-3">Minggu, 03-Maret-2024</div>
-                    <div class="tp-3">Senin,&nbsp; 04-Maret-2024</div>
+                    <!-- <div class="tp-3">Minggu, 03-Maret-2024</div> -->
+                    <!-- <div class="tp-3">Senin,&nbsp; 04-Maret-2024</div> -->
                     <a class="btn btn-lg btn-map mt-3" target="_blank" href="https://maps.app.goo.gl/gurk7DVPDhd1bZJn9">
                         <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 3.71788V18.7491C0 19.2404 0.496094 19.5764 0.952257 19.3941L6.94444 16.6667V0L0.873264 2.42839C0.615529 2.53147 0.394588 2.70941 0.238936 2.93925C0.083285 3.16909 6.17278e-05 3.44029 0 3.71788H0ZM8.33333 16.6667L16.6667 19.4444V2.77778L8.33333 0V16.6667ZM24.0477 0.0503472L18.0556 2.77778V19.4444L24.1267 17.0161C24.3845 16.913 24.6055 16.7351 24.7611 16.5052C24.9168 16.2754 25 16.0042 25 15.7266V0.695312C25 0.203993 24.5039 -0.131944 24.0477 0.0503472Z" fill="#926F34" />
@@ -186,7 +186,7 @@
                 <div class="text-party px-5 pt-5 col-lg-6" style="min-height: 100px;">
                     <div class="tp-1">Tasyakuran di Kediaman Mempelai Pria</div>
                     <div class="tp-3 d-flex justify-content-center justify-items-center">
-                        <div class="tp-2">7 - 8</div>
+                        <div class="tp-2">7-8</div>
                         <div class="mt-auto mb-auto ms-3 text-start">
                             <div> Maret </div>
                             <div>2024</div>
