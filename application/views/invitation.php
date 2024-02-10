@@ -171,8 +171,8 @@
                             <div>2024</div>
                         </div>
                     </div>
-                    <div class="tp-3">Akad Nikah : 4 Maret 2024, 10.00 WIB - Selesai</div>
-                    <div class="tp-3 pb-3">Resepsi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 13.00 WIB - Selesai</div>
+                    <div class="tp-3">Akad Nikah : 4 Maret, 10.00 WIB - Selesai</div>
+                    <div class="tp-3 pb-3">Resepsi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 4 Maret, 13.00 WIB - Selesai</div>
                     <div class="tp-3">Jln KH.Abdul Malik RT 05/RW 01 Mersi Purwokerto Timur</div>
                     <!-- <div class="tp-3 pt-3"><strong>Tasyakuran</strong></div> -->
 
